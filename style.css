@@ -1,0 +1,16 @@
+.gridArea {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.area {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  /* border-block-end: 1px solid;
+  border-right: 1px solid;
+} */
